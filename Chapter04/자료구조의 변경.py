@@ -1,0 +1,15 @@
+# 자료구조의 변경
+
+# 커피숍
+menu = {"커피", "우유", "주스"}
+print(menu, type(menu)) # type : set
+
+menu = list(menu)
+print(menu, type(menu)) # type : list
+
+menu = tuple(menu)
+print(menu, type(menu)) # type : tuple
+
+menu = set(menu)
+print(menu, type(menu)) # type : set
+
